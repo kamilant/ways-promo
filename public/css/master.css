@@ -1,0 +1,103 @@
+body,html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#App {
+  height: 100%;
+}
+.Wrapper {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.Background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  background-image: url('../images/DreamsEp.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(10px);
+}
+.Songs {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 140px;
+  height: 80%;
+}
+.Songs~div {
+  width: 100%;
+}
+.Songs--song {
+position: relative;
+}
+.Songs--song img {
+  border-radius: 50%;
+  width: 150px;
+  box-shadow: 0px -3px 0px 0px white;
+
+}
+#Top{
+  display: flex;
+}
+#Middle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#MainSong img {
+  width: 200px;
+}
+#Middle > div:first-child {
+  margin-right: 150px;
+}
+#Middle > div:first-child img{
+  margin: 20px;
+}
+#Middle > div:last-child {
+  margin-left: 150px;
+}
+#Middle > div:last-child img {
+  margin: 20px;
+}
+#Bottom {
+  display: flex;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pengy {
+  width: 30px !important;
+}
+.Header--logo img {
+  width: 550px;
+}
+.Ep{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Ep img {
+  filter: invert(1) drop-shadow(6px 8px 2px rgba(0,0,0,.4));
+}
